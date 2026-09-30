@@ -1,0 +1,16 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Кеш Python
+__pycache__/
+*.py[cod]
+
+# Локальная база
+library.db
+library.db-*
+
+# Секреты
+.env
+.env.*
+!.env.example
